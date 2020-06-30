@@ -1,3 +1,6 @@
+
+/*******************************************************************Styling Body*******************************************************************/
+
 body{
     text-align: center;
     margin: 0;
@@ -6,10 +9,7 @@ body{
     background-color:  #283149;
 }
 
-.container{
-  margin: 10rem auto;
-
-}
+/*******************************************************************Styling Header*******************************************************************/
 
 h1{
   display: inline-block;
@@ -25,20 +25,39 @@ h1:hover{
   transform: scale(1.3);
 }
 
-p{
-  color: white;
-  letter-spacing: 0.5rem;
-  font-size: 1rem;
-  transition: all 0.3s ease;
-  display: inline-block;
-  padding: 3rem;
-  border: 0;
-  margin: 0;
-   text-shadow: 0px 1px 20px #2bf1fb;
+/*******************************************************************Styling container*******************************************************************/
+
+.container{
+  margin: 10rem auto;
+
 }
-p:hover{
-  transform: scale(1.5);
+
+/*******************************************************************Adding Images to the drum buttons*******************************************************************/
+
+.w{
+  background-image: url("../images/tom1.png");
 }
+.a{
+background-image: url("../images/tom2.png");
+}
+.s{
+background-image: url("../images/tom3.png");
+}
+.d{
+background-image: url("../images/tom4.png");
+}
+.j{
+background-image: url("../images/crash.png");
+}
+.k{
+background-image: url("../images/snare.png");
+}
+.l{
+background-image: url("../images/kick.png");
+}
+
+/*******************************************************************Styling Drum Buttons*******************************************************************/
+
 .drum{
   font-family: 'Josefin Sans', sans-serif;
   margin: 1.8rem;
@@ -62,30 +81,26 @@ p:hover{
   box-shadow: 0px 0px 20px 5px rgba(239, 26, 173, 0.7);
 }
 
+/*******************************************************************Animated box shadow style*******************************************************************/
 
 .pressed{
   /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d, #00faff, #4dc367); */
   box-shadow: 0px 0px 20px 5px rgba(239, 26, 173, 0.7);
 }
 
-.w{
-  background-image: url("../images/tom1.png");
+/*******************************************************************Styling footer*******************************************************************/
+
+p{
+  color: white;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 3rem;
+  border: 0;
+  margin: 0;
+   text-shadow: 0px 1px 20px #2bf1fb;
 }
-.a{
-background-image: url("../images/tom2.png");
-}
-.s{
-background-image: url("../images/tom3.png");
-}
-.d{
-background-image: url("../images/tom4.png");
-}
-.j{
-background-image: url("../images/crash.png");
-}
-.k{
-background-image: url("../images/snare.png");
-}
-.l{
-background-image: url("../images/kick.png");
+p:hover{
+  transform: scale(1.5);
 }
